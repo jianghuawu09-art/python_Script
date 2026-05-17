@@ -22,15 +22,15 @@ def create_task(name, script_name, start_time):
     ], check=True)
 
 
-create_task('RunTest', '快手.py', '22:57')
-create_task('RunTest2', '抖音.py', '22:58')
-create_task('RunTest3', '小红书.py', '22:59')
+create_task('RunTest', '快手极速版养号.py', '08:00')
+create_task('RunTest2', '快手极速版养号.py', '12:20')
+create_task('RunTest3', '快手极速版养号.py', '18:20')
 
 
 print('定时任务已创建：')
-print('  - RunTest  -> 每天 22:57 运行 快手.py')
-print('  - RunTest2 -> 每天 22:58 运行 抖音.py')
-print('  - RunTest3 -> 每天 22:59 运行 小红书.py')
+print('  - RunTest  -> 每天 08:00 运行 快手极速版养号.py')
+print('  - RunTest2 -> 每天 12:20 运行 快手极速版养号.py')
+print('  - RunTest3 -> 每天 18:20 运行 快手极速版养号.py')
 print('如何查看任务，点击开始菜单，搜索“任务计划程序”，打开后在“任务计划程序库”中可以看到创建的任务。')
 # print('删除任务命令：schtasks /Delete /TN RunTest /F')  # RunTest是任务名称，/F表示强制删除，无需确认
 
